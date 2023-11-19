@@ -15,13 +15,37 @@
 // Switch
 
 
-let operacion = 5 + 2
+// let operacion = 0
+// switch (operacion) {
+//     case 0:
+//         console.log("La operacion es igual a 0");
+//         break;
+//     case 7:
+//         console.log("La operacion es igual a 7");
+//         break
+//     default:
+//         console.log("JAJAJAJ");
+// }
 
-switch (operacion) {
-    case 0:
-        console.log("La operacion es igual a 0");
-        break;
-    case 7:
-        console.log("La operacion es igual a 7");
-        break
+
+//Funciones
+
+// function saludar(nombre) {
+//     return "Hola " + nombre;
+// }
+
+// console.log(saludar("pepe"));
+// console.log(saludar("andres"));
+// console.log(saludar("felipe"));
+
+//Funcion  tipo clase
+
+function Inventario(Nombre) {
+    this.nombre = nombre;
+    this.articulos = [];
 }
+
+Inventario.prototype.getNombre = function() {
+    return this.nombre
+}
+

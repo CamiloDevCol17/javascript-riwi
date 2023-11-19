@@ -1,6 +1,6 @@
-let saludo = "Hola como estase"
+let saludo = "Hola como arroz"
 
-let  indice =  saludo.indexOf("e")
+let  indice =  saludo.indexOf("arroz")
 
 
 console.log(indice);
