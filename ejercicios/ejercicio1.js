@@ -66,3 +66,37 @@
 // multiplicador("hola mundo ", 4)
 
 
+
+
+// 1) Programa una función que cuente el número de caracteres de una cadena de texto, pe. miFuncion("Hola Mundo") devolverá 10.
+
+
+function contarCaracteres(cadenaDeTexto = "") {
+    longitud = cadenaDeTexto.length
+    if (longitud < 20) {
+        console.log("La oración cadena de texto contiene " + longitud  +  " caracteres");
+    }else{
+        console.log("No quiero contar eso");
+    }
+}
+
+
+contarCaracteres("Holaaaaaaaaaaaaaaaaaa");
+
+// 2) Programa una función que te devuelva el texto recortado según el número de caracteres indicados, pe. miFuncion("Hola Mundo", 4) devolverá "Hola".
+
+function recortar(cadenaDeTexto = "", desdeDonde) {
+
+    cadenaDeTexto.split()
+
+    if (cadenaDeTexto) {
+        
+    }
+}
+
+
+saludo = "hola Mundo"
+
+console.log(saludo.slice(4))
+
+
